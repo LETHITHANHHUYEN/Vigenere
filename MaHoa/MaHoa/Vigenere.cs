@@ -18,7 +18,7 @@ namespace MaHoa
             key = s.ToUpper();
         }
 
-        string chuoi = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        string chuoi = "ABCDEFGHIJKLMNOPQRSTUVWXYZ@#;/: ";
         public int[] chuoi_mangchiso(string s)
         {
             int[] mang = new int[s.Length];
